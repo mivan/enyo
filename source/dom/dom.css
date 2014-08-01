@@ -43,17 +43,12 @@ button::-moz-focus-inner {
 }
 
 /* user selection */
-
 .enyo-unselectable {
 	cursor: default;
 	-ms-user-select: none;
 	-webkit-user-select: none;
 	-moz-user-select: -moz-none;
 	user-select: none;
-}
-
-.enyo-unselectable::selection, .enyo-unselectable ::selection {
-	color: transparent;
 }
 
 .enyo-selectable {
